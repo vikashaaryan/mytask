@@ -1,0 +1,90 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  flex:1;
+  height:100vh;
+}
+.box{
+  background-color: yellow;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 450px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.box>h2{
+  font-size: 80px;
+  margin: 0;
+
+}
+.box>h5{
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+  color: blue;
+}
+.insert{
+  display: flex;
+  margin: 20px;
+  justify-content: stretch;
+  border: 1px solid black;
+
+}
+.form-control{
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 22px;
+  
+
+  border: 0;
+
+}
+.btn{
+  background-color: green;
+  color: black;
+  padding: 5px 10px ;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+.form-control{
+  border: 0;
+  outline: 0;
+
+}
+.task-list{
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 7px;
+}
+.task-list>p {
+  margin: 0;
+  font-size: 22px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcoral;
+  align-items: center;
+  padding: 3px 0px 3px 10px;
+  cursor: pointer;
+}
+.task-list>p:hover{
+  background-color: darkred;
+  color: white;
+}
+.task-list>p>span {
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+
+}
